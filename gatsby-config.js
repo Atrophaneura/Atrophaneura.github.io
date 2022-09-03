@@ -1,11 +1,25 @@
+const path = require('path')
+
 module.exports = {
   siteMetadata: {
     title: 'Atrophaneura',
-    shortName: 'Atrophaneura project',
-    description: 'A WIP Desktop for Linux',
+    shortName: 'Atrophaneura',
+    description: 'Atrophaneura project for creating a new DE for linux'
   },
-  plugins: ['@primer/gatsby-theme-doctocat'],
-  flags: {
-    DEV_SSR: true,
-  },
+  plugins: [
+    {
+      resolve: '@primer/gatsby-theme-doctocat',
+      options: {
+        defaultBranch: 'main'
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-alias-imports',
+      options: {
+        alias: {
+          react: path.resolve(__dirname, 'node_modules', 'react')
+        }
+      }
+    }
+  ]
 }

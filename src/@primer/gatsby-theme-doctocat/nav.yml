@@ -1,7 +1,4 @@
+- title: Atrophaneura
+  url: /
 - title: Status
   url: /status
-- title: Example
-  url: /example
-  children:
-    - title: Page 2
-      url: /example/page-2
