@@ -5,4 +5,7 @@ module.exports = {
     description: 'A WIP Desktop for Linux',
   },
   plugins: ['@primer/gatsby-theme-doctocat'],
+  flags: {
+    DEV_SSR: true,
+  },
 }

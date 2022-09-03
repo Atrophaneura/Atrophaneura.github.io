@@ -1,6 +1,6 @@
 {
-  "name": "doctocat-template",
-  "repository": "primer/doctocat-template",
+  "name": "atrophaneura-website",
+  "repository": "atrophaneura/atrophaneura.github.io",
   "version": "1.1.0",
   "scripts": {
     "develop": "gatsby develop",
