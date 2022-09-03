@@ -5,11 +5,13 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "now-build": "yarn run build"
+    "now-build": "yarn run build",
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
     "@primer/gatsby-theme-doctocat": "^3.1.0",
     "gatsby": "^2.13.25",
+    "gh-pages": "^4.0.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
