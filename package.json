@@ -9,7 +9,7 @@
     "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
-    "@primer/gatsby-theme-doctocat": "^3.1.0",
+    "@primer/gatsby-theme-doctocat": "^4.0.0",
     "gatsby": "^2.13.25",
     "gh-pages": "^4.0.0",
     "react": "^16.9.0",
